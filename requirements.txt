@@ -1,0 +1,4 @@
+psycopg2-binary
+
+# These libraries are required to be in "requirements.txt" file.
+# Other extra libraries like "mysql" or "requests"  must be added manually depending on your needs.
