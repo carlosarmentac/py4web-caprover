@@ -34,10 +34,11 @@ PY4WEB is a web framework for rapid development of efficient database driven web
 3.  Inside the `HTTP Settings` section of the new app enable HTTPS and select `Force HTTPS by redirecting all HTTP traffic to HTTPS`
 4.  On your local machine, clone this repository and `cd` into it `git clone https://github.com/carlosarmentac/py4web-caprover.git && cd py4web-caprover.git`
 5.  Provide a PY4WEB dashboard Password: Edit "Dockerfile" file and change line 6:
-    ARG password=none
-6.  Need aditional Python libraries? Add it in "requirements.txt" file:
-    psycopg2-binary
 
+        ARG password=none
+6.  Need aditional Python libraries? Add it in "requirements.txt" file:
+
+        psycopg2-binary
         # These libraries are required to be in "requirements.txt" file.
         # Other extra libraries like "mysql" or "requests"  must be added manually depending on your needs.
 
