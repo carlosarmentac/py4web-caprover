@@ -32,7 +32,7 @@ PY4WEB is a web framework for rapid development of efficient database driven web
 1.  [Get started with Caprover on your VPS and your CLI](https://caprover.com/docs/get-started.html)
 2.  Create a new app named `flask` (or anything else you like) in the `Caprover interface`
 3.  Inside the `HTTP Settings` section of the new app enable HTTPS and select `Force HTTPS by redirecting all HTTP traffic to HTTPS`
-4.  On your local machine, clone this repository and `cd` into it `git clone https://github.com/carlosarmentac/py4web-caprover.git && cd py4web-caprover.git`
+4.  On your local machine, clone this repository and `cd` into it `git clone https://github.com/carlosarmentac/py4web-caprover.git && cd py4web-caprover`
 5.  Provide a PY4WEB dashboard Password: Edit "Dockerfile" file and change line 6:
 
         ARG password=none
